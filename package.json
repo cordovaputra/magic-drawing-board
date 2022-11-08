@@ -1,0 +1,32 @@
+{
+  "name": "magic-drawing-board",
+  "version": "1.0.0",
+  "description": "WebML Marathon Project 3 - Creating a Magic Drawing Board with MagentaJS, Quick & Draw Dataset and SketchRNN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordovaputra/magic-drawing-board.git"
+  },
+  "keywords": [
+    "Machine",
+    "Learning",
+    "WebML",
+    "AI"
+  ],
+  "author": "Cordova Putra Handri Ansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cordovaputra/magic-drawing-board/issues"
+  },
+  "homepage": "https://github.com/cordovaputra/magic-drawing-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
