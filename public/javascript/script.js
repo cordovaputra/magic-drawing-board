@@ -1,4 +1,5 @@
-const STATUS = document.getElementById('status');               
+const STATUS = document.getElementById('status');  
+
 /*--------------------------------------------------------------------------------------------------------*/
 /* A. INTEGRATE MACHINE LEARNING MODEL (sketchRNN) */
 const SKETCH_RNN_ML_MODEL     = "https://storage.googleapis.com/quickdraw-models/sketchRNN/models/";
@@ -268,8 +269,9 @@ function initModel(index) {
   MLModel.initialize().then(() => {
     MLModelLoaded = true; 
     document.getElementById("sketch").classList.remove("loading");
-    STATUS.innerText = `${DEFINED_MLMODEL_OBJECTS[index]} model loaded!`;
+    STATUS.innerText = `${DEFINED_MLMODEL_OBJECTS[index]} model is loaded!`;
     MLModel.setPixelFactor(5.0);
+
   });
 }
 

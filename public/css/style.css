@@ -15,6 +15,9 @@ body {
   flex-direction: column;
   --primary: #4545CC;
   --secondary: #8EE3C8;
+  --white: #FFFFFF;
+  --gold: #FFF500;
+
 }
 
 * { box-sizing: border-box; }
@@ -34,7 +37,7 @@ a:link, a:visited {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  border-bottom: 4px solid var(--secondary);
+  border-bottom: 4px solid var(--gold);
 }
 a:hover {
   background: var(--secondary);
@@ -42,10 +45,10 @@ a:hover {
 }
 
 header {
-  background-color: #FAA11C;
+  background-color: #387DEB;
   width: 100%;
   padding: 0 20px;
-  border-bottom: 8px solid var(--secondary);
+  border-bottom: 8px solid var(--gold);
 }
 
 #splash {
@@ -190,6 +193,14 @@ select {
   pointer-events: none;
   opacity: 0.3;
   filter: blur(3px);
+}
+#status {
+  font-size: 20%%;
+  color: var(--white)
+}
+#status.hidden {
+  display: none;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 700px) {
